@@ -1,0 +1,14 @@
+CODEBUCH,
+,
+edgelist,
+from,definiert den Sender. Entspricht ID in der Nodelist
+to ,definiert den Empfänger. Entspricht ID in der Nodelist
+relationship,"definiert die Art der Beziehung: 1 = Geschäftsführer Fynns Firmen, 2 = Kooperationspartner, 3 = Geschäftspartner Fynns Firmen, 4 = Geschäftspartner andere Firmen, 5 = Geschäftsführer andere Firmen"
+nodelist,
+id,"eindeutige Identifikation jedes einzelnen Knotens (vertex), der erfasst wird.  "
+name,Name oder Bezeichnung des Knotens. 
+periodstart,definiert den Anfang der Geschäftsbeziehung in Jahreszahlen
+type,"definiert die Art des Knotens: 1 = Firma, 2 = Kliemanns Firmen, 3 = Person"
+weight,definitert die Stärke der Beziehungen gemessen an der Art der Beziehung von 1 = schwach bis 2= stark
+,
+NA,"definiert fehlende Werte, bei der Datenerhebung das Feld einfach leer lassen, R rechnet NAs (missing values) automatisch raus.."
